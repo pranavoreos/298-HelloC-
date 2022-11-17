@@ -1,7 +1,12 @@
-/// @file <minimal.cpp
-/// @brief <just the main arguement>
+/// @file <hello_namespace.cpp>
+/// @brief <using namespace std>
 /// @author <saravanan@chapman.edu>
 
 #include <iostream>
 
-int main() {} 
+using namespace std;
+int main()
+{
+   cout << "Hello C++!" << endl;
+   return 0;
+}
